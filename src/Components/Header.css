@@ -1,0 +1,36 @@
+/* Header.css */
+header {
+  background-color: #ffffffa2; /* 헤더 배경색 */
+  color: #333333; /* 헤더 텍스트 색상 */
+  padding: 20px; /* 헤더 안쪽 여백 */
+  width: 100%; /* 헤더 너비를 화면 전체로 확장 */
+  position: fixed; /* 헤더를 화면에 고정 */
+  height: 40px; /* 헤더 높이를 40px로 지정 */
+  line-height: 40px; /* 텍스트의 수직 정렬을 위해 line-height 수정 */
+  top: 0; /* 화면 상단에 고정 */
+  left: 0; /* 화면 왼쪽에 고정 */
+  z-index: 1000; /* 다른 요소 위에 표시 */
+  display: flex; /* 요소들을 행으로 배치 */
+  justify-content: space-between; /* 요소들을 양 끝으로 정렬 */
+  overflow: hidden; /* 헤더 내부의 오버플로우 처리 */
+  border-bottom: 1px solid #ccc; /* 헤더의 하단에 1px 두께의 회색 실선 경계선 추가 */
+  font-size: 1.1em; /* 현재 글자 크기보다 약간 크게 조정 */
+}
+
+.logo {
+  color: #000000; /* 링크 텍스트 색상 */
+  text-decoration: none; /* 링크 텍스트에 밑줄 제거 */
+  /* margin-right: 20px; My Logo 오른쪽 여백 삭제 */
+}
+
+.nav {
+  display: flex; /* 네비게이션 링크들을 행으로 배치 */
+  margin-right: 50px; /* .nav의 왼쪽 여백 추가 */
+}
+
+.nav a {
+  margin-left: 10px; /* 네비게이션 링크들의 왼쪽 간격 조절 */
+  color: #000000; /* 링크 텍스트 색상 */
+  text-decoration: none; /* 링크 텍스트에 밑줄 제거 */
+  white-space: nowrap; /* 텍스트가 줄 바꿈되지 않도록 처리 */
+}

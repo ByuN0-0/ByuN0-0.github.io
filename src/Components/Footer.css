@@ -1,0 +1,13 @@
+/* Footer.css */
+
+footer {
+  background-color: #333; /* 푸터 배경색 */
+  color: #fff; /* 푸터 텍스트 색상 */
+  padding: 10px 40px; /* 푸터의 상하 여백을 1px로 설정 */
+  text-align: left; /* 푸터 텍스트 가운데 정렬 */
+  font-size: 13px;
+  position: fixed; /* 화면 하단에 고정 */
+  width: 100%; /* 푸터 너비를 화면 전체로 확장 */
+  bottom: 0; /* 화면 하단에 고정 */
+  left: 0; /* 화면 왼쪽에 고정 */
+}
