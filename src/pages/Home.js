@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Home = (props) => {
   return (
     <div>
-      <h3>안녕하세요. home페이지 입니다.</h3>
+      <h3>안녕하세요. Home페이지 입니다.</h3>
       <ul>
         <Link to="/product/1">
           <li>1번상품</li>

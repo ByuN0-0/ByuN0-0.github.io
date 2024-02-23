@@ -2,9 +2,10 @@
 header {
   background-color: #ffffffa2; /* 헤더 배경색 */
   color: #333333; /* 헤더 텍스트 색상 */
-  padding: 20px; /* 헤더 안쪽 여백 */
+  padding: 15px; /* 헤더 안쪽 여백 */
+  padding-left: 50px;
   width: 100%; /* 헤더 너비를 화면 전체로 확장 */
-  position: fixed; /* 헤더를 화면에 고정 */
+  /*position: fixed; */ /* 헤더를 화면에 고정 */
   height: 40px; /* 헤더 높이를 40px로 지정 */
   line-height: 40px; /* 텍스트의 수직 정렬을 위해 line-height 수정 */
   top: 0; /* 화면 상단에 고정 */
@@ -25,7 +26,7 @@ header {
 
 .nav {
   display: flex; /* 네비게이션 링크들을 행으로 배치 */
-  margin-right: 50px; /* .nav의 왼쪽 여백 추가 */
+  margin-right: 80px; /* .nav의 왼쪽 여백 추가 */
 }
 
 .nav a {
