@@ -6,7 +6,7 @@
   width: 200px; /* TOC의 너비를 조정합니다. */
   margin: 0;
   padding: 0;
-  background-color: #f8f9fa; /* 배경색을 지정합니다. */
+  background-color: #ffffff; /* 배경색을 지정합니다. */
   overflow-y: auto; /* 내용이 넘칠 경우 스크롤이 생기도록 설정합니다. */
   padding: 20px; /* 안쪽 여백을 설정합니다. */
   border-right: 2px solid #dee2e6; /* 오른쪽 경계선 스타일 및 두께 지정 */

@@ -10,8 +10,13 @@ function TOC() {
           <div className="author_content">
             <div className="author_name">비연</div>
             <div className="author_bio">화이팅</div>
-            <div className="author_social">지역이메일깃허브인스타</div>
           </div>
+        </div>
+        <div className="author_social">
+          <div>Seoul, Korea</div>
+          <div>isly7959@naver.com</div>
+          <div>github.com/ByuN0-0</div>
+          <div></div> {/*추가*/}
         </div>
         <nav className="nav_list">
           <ul className="nav_items">

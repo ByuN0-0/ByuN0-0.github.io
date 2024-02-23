@@ -2,9 +2,9 @@
 header {
   background-color: #ffffffa2; /* 헤더 배경색 */
   color: #333333; /* 헤더 텍스트 색상 */
-  padding: 15px; /* 헤더 안쪽 여백 */
-  padding-left: 50px;
-  width: 100%; /* 헤더 너비를 화면 전체로 확장 */
+  padding: 20px; /* 헤더 안쪽 여백 */
+  padding-left: 30px;
+  width: 95%; /* 헤더 너비를 화면 전체로 확장 */
   /*position: fixed; */ /* 헤더를 화면에 고정 */
   height: 40px; /* 헤더 높이를 40px로 지정 */
   line-height: 40px; /* 텍스트의 수직 정렬을 위해 line-height 수정 */
@@ -13,7 +13,7 @@ header {
   z-index: 1000; /* 다른 요소 위에 표시 */
   display: flex; /* 요소들을 행으로 배치 */
   justify-content: space-between; /* 요소들을 양 끝으로 정렬 */
-  overflow: hidden; /* 헤더 내부의 오버플로우 처리 */
+  overflow: auto; /* 헤더 내부의 오버플로우 처리 */
   border-bottom: 1px solid #ccc; /* 헤더의 하단에 1px 두께의 회색 실선 경계선 추가 */
   font-size: 1.1em; /* 현재 글자 크기보다 약간 크게 조정 */
 }
@@ -26,7 +26,7 @@ header {
 
 .nav {
   display: flex; /* 네비게이션 링크들을 행으로 배치 */
-  margin-right: 80px; /* .nav의 왼쪽 여백 추가 */
+  margin-right: 0; /* .nav의 왼쪽 여백 추가 */
 }
 
 .nav a {
