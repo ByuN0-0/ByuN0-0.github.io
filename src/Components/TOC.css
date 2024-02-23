@@ -9,8 +9,16 @@
   background-color: #ffffff; /* 배경색을 지정합니다. */
   overflow-y: auto; /* 내용이 넘칠 경우 스크롤이 생기도록 설정합니다. */
   padding: 20px; /* 안쪽 여백을 설정합니다. */
+  border-right: 1px solid #ccc; /* 오른쪽 경계선 스타일 및 두께 지정 */
 }
 
 .toc {
   min-height: 800px; /* TOC의 최소 높이를 800px로 지정합니다. */
+}
+
+.author_avatar {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  margin-bottom: 20px;
 }
