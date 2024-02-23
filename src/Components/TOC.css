@@ -1,24 +1,98 @@
 .toc-container {
-  /*position: fixed; */ /* TOC를 화면에 고정합니다. */
+  /*position: fixed;*/ /* TOC를 화면에 고정합니다. */
   left: 0; /* 왼쪽에 고정합니다. */
   top: 100px; /* 화면 상단에 고정합니다. */
   height: 640px; /* 화면 전체 높이를 차지합니다. */
-  width: 200px; /* TOC의 너비를 지정합니다. */
+  width: 200px; /* TOC의 너비를 조정합니다. */
   margin: 0;
   padding: 0;
-  background-color: #ffffff; /* 배경색을 지정합니다. */
+  background-color: #f8f9fa; /* 배경색을 지정합니다. */
   overflow-y: auto; /* 내용이 넘칠 경우 스크롤이 생기도록 설정합니다. */
   padding: 20px; /* 안쪽 여백을 설정합니다. */
-  border-right: 1px solid #ccc; /* 오른쪽 경계선 스타일 및 두께 지정 */
+  border-right: 2px solid #dee2e6; /* 오른쪽 경계선 스타일 및 두께 지정 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 그림자 효과를 추가합니다. */
 }
 
 .toc {
-  min-height: 800px; /* TOC의 최소 높이를 800px로 지정합니다. */
+  font-family: "Arial", sans-serif; /* 폰트를 지정합니다. */
 }
 
-.author_avatar {
-  width: 170px;
-  height: 170px;
-  border-radius: 50%;
-  margin-bottom: 20px;
+.toc .author {
+  display: flex; /* 내부 요소를 수평으로 배치합니다. */
+  align-items: center; /* 세로 정렬을 수행합니다. */
+  margin-bottom: 20px; /* 아래 여백을 추가합니다. */
+}
+
+.toc .author_avatar {
+  width: 60px; /* 프로필 이미지 너비를 지정합니다. */
+  height: 60px; /* 프로필 이미지 높이를 지정합니다. */
+  border-radius: 50%; /* 원형 모양으로 이미지를 만듭니다. */
+  margin-right: 15px; /* 오른쪽 여백을 추가합니다. */
+}
+
+.toc .author_content {
+  flex: 1; /* 남은 공간을 모두 차지합니다. */
+}
+
+.toc .author_name {
+  font-weight: bold; /* 글씨체를 굵게 설정합니다. */
+  margin-bottom: 5px; /* 아래 여백을 추가합니다. */
+}
+
+.toc .author_bio {
+  color: #6c757d; /* 글씨 색상을 지정합니다. */
+  margin-bottom: 5px; /* 아래 여백을 추가합니다. */
+}
+
+.toc .author_social {
+  font-size: 0.9rem; /* 글자 크기를 줄입니다. */
+  color: #868e96; /* 글씨 색상을 지정합니다. */
+}
+
+.toc .nav_list {
+  margin-top: 20px; /* 위 여백을 추가합니다. */
+}
+
+.toc .sub_title {
+  font-weight: bold; /* 글씨체를 굵게 설정합니다. */
+  margin-bottom: 0; /* 아래 여백을 추가합니다. */
+}
+
+.toc ul {
+  margin-left: 0; /* 왼쪽 여백을 추가합니다. */
+}
+
+.toc ul li {
+  list-style-type: circle; /* 목록 기호를 원형으로 설정합니다. */
+  margin-left: 0;
+  margin-bottom: 5px; /* 아래 여백을 추가합니다. */
+}
+
+.toc .nav_items {
+  margin-left: 0; /* ul의 왼쪽 여백을 제거합니다. */
+  padding-left: 5px; /* ul의 내부 여백을 제거합니다. */
+}
+
+.toc .nav_items li {
+  list-style-type: none; /* 목록 요소의 기본 스타일을 제거합니다 (점을 없앰). */
+  padding-left: 0;
+  margin-left: 0; /* ul li의 왼쪽 여백을 제거합니다. */
+  margin-bottom: 10px; /* 아래 여백을 추가합니다. */
+}
+.toc .nav_items ul {
+  margin-top: 0; /* ul의 위 여백을 제거합니다. */
+  padding-left: 0; /* ul의 내부 여백을 추가합니다. */
+}
+
+.sub_title {
+  font-weight: bold;
+  border-bottom: 1px solid #ccc; /* 아래에 얇은 줄을 추가합니다. */
+  padding-bottom: 5px; /* 줄 아래 여백을 추가합니다. */
+  margin-bottom: 10px; /* 제목 아래 여백을 추가합니다. */
+}
+
+.sub_title a {
+  color: #000000; /* 링크 텍스트 색상 */
+  text-decoration: none; /* 링크 텍스트에 밑줄 제거 */
+  white-space: nowrap; /* 텍스트가 줄 바꿈되지 않도록 처리 */
 }

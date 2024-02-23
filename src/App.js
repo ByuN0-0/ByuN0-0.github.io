@@ -6,6 +6,9 @@ import "./App.css";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Study from "./pages/Study";
+import Project from "./pages/Project";
+import Story from "./pages/Story";
 import NotFound from "./pages/NotFound";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
@@ -27,6 +30,9 @@ function App() {
                 <Route exact path="/home" element={<Home />} />
                 <Route exact path="/about" element={<About />} />
                 <Route exact path="/contact" element={<Contact />} />
+                <Route exact path="/Study" element={<Study />} />
+                <Route exact path="/Project" element={<Project />} />
+                <Route exact path="/Story" element={<Story />} />
                 <Route path="*" element={<NotFound />}></Route>
               </Routes>
             </div>
