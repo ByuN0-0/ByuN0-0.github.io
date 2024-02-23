@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Breadcrumbs.css";
 import { useLocation } from "react-router-dom";
 
@@ -16,7 +17,7 @@ function Breadcrumbs() {
         {/* 각 경로 요소에 대한 링크를 생성 */}
         {pathArray.map((path, index) => (
           <span key={index}>
-            <a href={`/${path}`}>{path}</a>
+            <Link to={`/${path}`}>{path}</Link>
             {/* 경로 요소 사이에 구분자 추가 */}
             {index < pathArray.length - 1 && " / "}
           </span>
