@@ -13,3 +13,8 @@
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
+
+.breadcrumbs a {
+  color: #666;
+  text-decoration: none;
+}

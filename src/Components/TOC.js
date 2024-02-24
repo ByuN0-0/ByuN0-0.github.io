@@ -15,7 +15,9 @@ function TOC() {
         <div className="author_social">
           <div>Seoul, Korea</div>
           <div>isly7959@naver.com</div>
-          <div>github.com/ByuN0-0</div>
+          <div>
+            <a href="https://github.com/ByuN0-0">github.com/ByuN0-0</a>
+          </div>
           <div></div> {/*추가*/}
         </div>
         <nav className="nav_list">
@@ -24,8 +26,12 @@ function TOC() {
               <div className="sub_title">
                 <Link to="/study">Study</Link>
               </div>
-              <ul>머신러닝</ul>
-              <ul>IT 지식</ul>
+              <ul>
+                <Link to="/study/machinelearning">머신러닝</Link>
+              </ul>
+              <ul>
+                <Link to="/study/it">IT지식</Link>
+              </ul>
             </li>
             <li>
               <div className="sub_title">
