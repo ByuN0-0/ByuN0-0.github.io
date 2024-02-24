@@ -18,7 +18,7 @@ import Breadcrumbs from "./Components/Breadcrumbs";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Header />
         <div className="initial-content">
           <Breadcrumbs />
