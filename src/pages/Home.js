@@ -1,5 +1,7 @@
 import React from "react";
+import Markdown from "../Components/MarkDown";
 import { Link } from "react-router-dom";
+import ReactMarkdown from "react-markdown";
 
 const Home = (props) => {
   return (
@@ -13,6 +15,10 @@ const Home = (props) => {
           <li>2번상품</li>
         </Link>
       </ul>
+      <Markdown filePath={"post/firstpost.md"} />
+      <ReactMarkdown>
+        "# Hello, Markdown!\n\nThis is a **React** component rendering Markdown.";
+      </ReactMarkdown>
     </div>
   );
 };
