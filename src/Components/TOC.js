@@ -1,5 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSquareGithub } from "@fortawesome/free-brands-svg-icons";
+import { faSquareEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+
 import "./TOC.css";
 function TOC() {
   return (
@@ -13,10 +19,19 @@ function TOC() {
           </div>
         </div>
         <div className="author_social">
-          <div>Seoul, Korea</div>
-          <div>isly7959@naver.com</div>
           <div>
-            <a href="https://github.com/ByuN0-0">github.com/ByuN0-0</a>
+            <FontAwesomeIcon className="social_ico" icon={faLocationDot} />
+            &nbsp;Seoul, Korea
+          </div>
+          <div>
+            <FontAwesomeIcon className="social_ico" icon={faSquareEnvelope} />
+            &nbsp;isly7959@naver.com
+          </div>
+          <div>
+            <a href="https://github.com/ByuN0-0">
+              <FontAwesomeIcon className="social_ico" icon={faSquareGithub} />
+              &nbsp;github.com/ByuN0-0
+            </a>
           </div>
           <div></div> {/*추가*/}
         </div>
