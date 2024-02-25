@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -8,8 +8,22 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 import "./TOC.css";
 function TOC() {
+  const [showTOC, setShowTOC] = useState(true);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setShowTOC(window.innerWidth > 600); // 화면 너비가 800px 이상이면 TOC 표시
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
-    <div className="toc-container">
+    <div className="toc-container" style={{ display: showTOC ? "block" : "none" }}>
       <div className="toc">
         <div className="author">
           <img className="author_avatar" src="img/profileimg.png" alt="profile img" />
