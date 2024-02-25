@@ -14,10 +14,6 @@
   /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/ /* 그림자 효과를 추가합니다. */
 }
 
-.toc {
-  font-family: "Arial", sans-serif; /* 폰트를 지정합니다. */
-}
-
 .toc .author {
   display: flex; /* 내부 요소를 수평으로 배치합니다. */
   align-items: center; /* 세로 정렬을 수행합니다. */

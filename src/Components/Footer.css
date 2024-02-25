@@ -5,7 +5,7 @@ footer {
   color: #fff; /* 푸터 텍스트 색상 */
   padding: 10px 0 10px 40px; /* 푸터의 상하 여백을 10px로 설정, 좌측 여백 40px */
   text-align: left; /* 푸터 텍스트 왼쪽 정렬 */
-  font-size: 13px;
+  font-size: 11px;
   width: calc(100% - 40px); /* 푸터 너비를 화면 전체에서 40px만큼 감소한 크기로 확장 */
   left: 0; /* 화면 왼쪽에 고정 */
 }

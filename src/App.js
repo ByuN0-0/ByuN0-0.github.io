@@ -19,9 +19,9 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter basename={process.env.PUBLIC_URL}>
-        <Header />
+        <Header className="header" />
         <div className="initial-content">
-          <Breadcrumbs />
+          <Breadcrumbs className="breadcrumbs" />
           <div className="main">
             <TOC className="toc" />
             <div className="content">
@@ -38,7 +38,7 @@ function App() {
             </div>
           </div>
         </div>
-        <Footer />
+        <Footer className="footer" />
       </BrowserRouter>
     </div>
   );

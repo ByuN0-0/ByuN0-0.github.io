@@ -20,3 +20,26 @@
 .main .content {
   margin-left: 20px;
 }
+
+@font-face {
+  font-family: "square";
+  src: url("./fonts/square.ttf") format("truetype");
+}
+@font-face {
+  font-family: "taebaek";
+  src: url("./fonts/taebaek.ttf") format("truetype");
+}
+@font-face {
+  font-family: "taebaekmw";
+  src: url("./fonts/taebaekmw.ttf") format("truetype");
+}
+
+.toc,
+.breadcrumbs,
+.header {
+  font-family: "square"; /* 폰트를 지정합니다. */
+}
+
+.footer {
+  font-family: "taebaekmw"; /* 폰트를 지정합니다. */
+}
