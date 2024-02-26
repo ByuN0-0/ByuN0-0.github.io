@@ -2,6 +2,7 @@ import React from "react";
 import Markdown from "../Components/MarkDown";
 import { Link } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
+import MDList from "../Components/MDList";
 
 const Home = (props) => {
   return (
@@ -19,6 +20,9 @@ const Home = (props) => {
       <ReactMarkdown>
         "# Hello, Markdown!\n\nThis is a **React** component rendering Markdown.";
       </ReactMarkdown>
+      MDList --
+      <MDList filePath={"post/list.md"} />
+      MDList --
     </div>
   );
 };

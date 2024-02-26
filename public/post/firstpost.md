@@ -1,1 +1,13 @@
-"# Hello, Markdown!\n\nThis is a **React** component rendering Markdown.";
+---
+date: 2024-02-26
+tag: tech
+title: test
+---
+
+# 제목: Markdown 파일 작성 예시
+
+Tags: markdown, writing, example
+
+요약: 이 Markdown 파일은 제목, 태그, 요약, 카테고리, 본문을 함께 작성하는 예시입니다.
+
+카테고리: 문서작성

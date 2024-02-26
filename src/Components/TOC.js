@@ -39,7 +39,7 @@ function TOC() {
           </div>
           <div>
             <FontAwesomeIcon className="social_ico" icon={faSquareEnvelope} />
-            &nbsp;isly7959@naver.com
+            &nbsp;isly7959@gmail.com
           </div>
           <div>
             <a href="https://github.com/ByuN0-0">
