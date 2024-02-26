@@ -1,5 +1,4 @@
----
+title: Second
 date: 2024-02-26
 tag: story
-title: test2
----
+[Google](https://www.google.com)

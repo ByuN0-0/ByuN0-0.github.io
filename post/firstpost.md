@@ -1,8 +1,6 @@
----
+title: first
 date: 2024-02-26
 tag: tech
-title: test
----
 
 # 제목: Markdown 파일 작성 예시
 
