@@ -9,7 +9,7 @@ const Home = (props) => {
       --------- Home.js MDList test ---------
       <MDList filePath={"post/study/list.md"} />
       <MDList filePath={"post/story/list.md"} />
-      --------- Home.js MDList test ---------
+      <MDList filePath={"post/project/list.md"} />
     </div>
   );
 };

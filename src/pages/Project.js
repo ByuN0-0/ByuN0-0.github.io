@@ -1,18 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
+import MDList from "../Components/MDList";
 const Project = (props) => {
   return (
     <div>
       <h3>안녕하세요. Project페이지 입니다.</h3>
-      <ul>
-        <Link to="/product/1">
-          <li>1번상품</li>
-        </Link>
-        <Link to="/product/2">
-          <li>2번상품</li>
-        </Link>
-      </ul>
+      <MDList filePath={"post/project/list.md"} />
     </div>
   );
 };

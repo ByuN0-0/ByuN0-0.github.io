@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom"; // useParams import 추가
 import ReactMarkdown from "react-markdown";
-
+import NotFound from "../pages/NotFound";
 const MarkdownComponent = () => {
   const [markdownContent, setMarkdownContent] = useState("");
   const { tag, title } = useParams(); // useParams 훅을 사용하여 URL 파라미터 추출
@@ -22,7 +22,11 @@ const MarkdownComponent = () => {
 
   return (
     <div className="markdown-container">
-      <ReactMarkdown>{markdownContent}</ReactMarkdown>
+      {markdownContent.split(" ")[0] === "<!DOCTYPE" ? (
+        <NotFound />
+      ) : (
+        <ReactMarkdown>{markdownContent}</ReactMarkdown>
+      )}
     </div>
   );
 };
