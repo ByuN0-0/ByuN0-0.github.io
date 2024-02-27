@@ -42,7 +42,7 @@ function TOC() {
             &nbsp;isly7959@gmail.com
           </div>
           <div>
-            <a href="https://github.com/ByuN0-0">
+            <a href="https://github.com/ByuN0-0" target="_blank" rel="noreferrer">
               <FontAwesomeIcon className="social_ico" icon={faSquareGithub} />
               &nbsp;github.com/ByuN0-0
             </a>

@@ -15,7 +15,7 @@ header {
   justify-content: space-between; /* 요소들을 양 끝으로 정렬 */
   overflow: auto; /* 헤더 내부의 오버플로우 처리 */
   border-bottom: 1px solid #ccc; /* 헤더의 하단에 1px 두께의 회색 실선 경계선 추가 */
-  font-size: 1.1em; /* 현재 글자 크기보다 약간 크게 조정 */
+  font-size: 1.4em; /* 현재 글자 크기보다 약간 크게 조정 */
   font-family: "square", sans-serif; /* 폰트를 지정합니다. */
 }
 

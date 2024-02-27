@@ -12,6 +12,7 @@
   padding-right: 0;
   border-right: 2px solid #dee2e6; /* 오른쪽 경계선 스타일 및 두께 지정 */
   /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/ /* 그림자 효과를 추가합니다. */
+  font-size: 1.2rem;
 }
 
 .toc .author {
@@ -104,5 +105,5 @@
 
 .social_ico {
   color: #222222;
-  font-size: 20px;
+  font-size: 26px;
 }

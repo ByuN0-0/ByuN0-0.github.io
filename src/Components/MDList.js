@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import ReactMarkdown from "react-markdown";
+import PostSummary from "./PostSummary";
 
 const MDList = ({ filePath }) => {
   const [markdownContent, setMarkdownContent] = useState("");
-  const [allMarkdownContent, setAllMarkdownContent] = useState("");
-
+  const [postList, setPostList] = useState([]);
+  let pathTag = filePath.split("/")[1];
   useEffect(() => {
     const fetchMarkdownContent = async () => {
       try {
@@ -19,25 +19,31 @@ const MDList = ({ filePath }) => {
   }, [filePath]);
 
   useEffect(() => {
-    let allMarkdownText = "";
     markdownContent.split("\n").forEach(async (line) => {
       try {
         if (line === "");
         else {
-          const response = await fetch(`post/${line}.md`);
+          const response = await fetch(`post/${pathTag}/${line}.md`);
           const markdownText = await response.text();
-          allMarkdownText += markdownText;
-          setAllMarkdownContent(allMarkdownText);
+          let parts = markdownText.split("\n");
+          let title = parts[0].split(": ")[1];
+          let date = parts[1].split(": ")[1];
+          let tag = parts[2].split(": ")[1];
+          setPostList((postList) => [
+            ...postList,
+            <PostSummary key={title} title={title} date={date} tag={tag} />,
+          ]);
         }
       } catch (error) {
         console.error("Error fetching markdown content:", error);
       }
     });
-  }, [markdownContent]);
+  }, [pathTag, markdownContent]);
 
   return (
     <div className="markdown-container">
-      <ReactMarkdown>{allMarkdownContent}</ReactMarkdown>
+      {/*<ReactMarkdown>{allMarkdownContent}</ReactMarkdown>*/}
+      {postList}
     </div>
   );
 };

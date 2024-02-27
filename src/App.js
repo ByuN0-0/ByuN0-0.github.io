@@ -14,6 +14,7 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import TOC from "./Components/TOC";
 import Breadcrumbs from "./Components/Breadcrumbs";
+import MarkDown from "./Components/Markdown";
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
                 <Route exact path="/home" element={<Home />} />
                 <Route exact path="/about" element={<About />} />
                 <Route exact path="/contact" element={<Contact />} />
-                <Route exact path="/Study" element={<Study />} />
+                <Route exact path="/study" element={<Study />} />
+                <Route exact path="/:tag/:title" element={<MarkDown />} />
                 <Route exact path="/Project" element={<Project />} />
                 <Route exact path="/Story" element={<Story />} />
                 <Route path="*" element={<NotFound />}></Route>
