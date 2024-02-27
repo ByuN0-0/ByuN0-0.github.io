@@ -1,8 +1,8 @@
-title: first
+title: firstpost
 date: 2024-02-26
-tag: tech
+tag: study
 
-# 제목: Markdown 파일 작성 예시
+# 제목: Markdown 파일 작성 예시 (테스트)
 
 Tags: markdown, writing, example
 
