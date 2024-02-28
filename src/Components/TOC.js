@@ -12,7 +12,7 @@ function TOC() {
 
   useEffect(() => {
     const handleResize = () => {
-      setShowTOC(window.innerWidth > 600); // 화면 너비가 800px 이상이면 TOC 표시
+      setShowTOC(window.innerWidth > 800); // 화면 너비가 800px 이상이면 TOC 표시
     };
 
     window.addEventListener("resize", handleResize);
