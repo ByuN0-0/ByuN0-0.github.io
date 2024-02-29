@@ -1,4 +1,5 @@
 import React from "react";
+import "./Contact.css"; // Contact 페이지의 CSS 파일을 임포트합니다.
 
 const Contact = () => {
   return (

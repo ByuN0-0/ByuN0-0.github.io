@@ -1,19 +1,41 @@
-.tech-stack-page {
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
   padding: 20px;
 }
 
-.page-title {
+.about-heading {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-.tech-list {
+.category-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.skill-list {
   list-style-type: none;
   padding: 0;
 }
 
-.tech-list li {
-  margin-bottom: 8px;
-  font-size: 18px;
+.skill-list li {
+  margin-bottom: 10px;
+}
+
+.skill-list li::before {
+  content: "▹";
+  margin-right: 5px;
+}
+
+.skill-description {
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.skill-description p {
+  margin-bottom: 10px;
 }
