@@ -26,9 +26,13 @@ function TOC() {
     <div className="toc-container" style={{ display: showTOC ? "block" : "none" }}>
       <div className="toc">
         <div className="author">
-          <img className="author_avatar" src="img/profileimg.png" alt="profile img" />
+          <Link to="/about">
+            <img className="author_avatar" src="img/profileimg.png" alt="profile img" />
+          </Link>
           <div className="author_content">
-            <div className="author_name">비연</div>
+            <Link to="/about" className="author_name">
+              비연
+            </Link>
             <div className="author_bio">화이팅</div>
           </div>
         </div>

@@ -31,7 +31,11 @@
 .toc .author_content {
   flex: 1; /* 남은 공간을 모두 차지합니다. */
 }
-
+.toc .author_content .author_name {
+  color: #000000; /* 링크 텍스트 색상 */
+  text-decoration: none; /* 링크 텍스트에 밑줄 제거 */
+  white-space: nowrap; /* 텍스트가 줄 바꿈되지 않도록 처리 */
+}
 .toc .author_name {
   font-weight: bold; /* 글씨체를 굵게 설정합니다. */
   margin-bottom: 5px; /* 아래 여백을 추가합니다. */
