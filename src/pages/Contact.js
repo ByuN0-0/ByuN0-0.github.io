@@ -1,18 +1,21 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
-const Contact = (props) => {
+const Contact = () => {
   return (
-    <div>
-      <h3>안녕하세요. Contact페이지 입니다.</h3>
-      <ul>
-        <Link to="/product/1">
-          <li>1번상품</li>
-        </Link>
-        <Link to="/product/2">
-          <li>2번상품</li>
-        </Link>
-      </ul>
+    <div className="contact-container">
+      <h2>Contact Me</h2>
+      <div className="contact-info">
+        <p>
+          Email: <a href="mailto:isly7959@gmail.com">isly7959@gmail.com</a>
+        </p>
+        <p>
+          Instagram: <a href="https://www.instagram.com/byun.ej/">@byun.ej</a>
+        </p>
+        <p>
+          Github: <a href="https://github.com/ByuN0-0">ByuN0-0</a>
+        </p>
+        <p>Location: 대한민국 서울</p>
+      </div>
     </div>
   );
 };
