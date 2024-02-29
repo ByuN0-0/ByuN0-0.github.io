@@ -10,10 +10,16 @@ const Contact = () => {
           Email: <a href="mailto:isly7959@gmail.com">isly7959@gmail.com</a>
         </p>
         <p>
-          Instagram: <a href="https://www.instagram.com/byun.ej/">@byun.ej</a>
+          Instagram:{" "}
+          <a href="https://www.instagram.com/byun.ej/" target="_blank" rel="noreferrer">
+            @byun.ej
+          </a>
         </p>
         <p>
-          Github: <a href="https://github.com/ByuN0-0">ByuN0-0</a>
+          Github:{" "}
+          <a href="https://github.com/ByuN0-0" target="_blank" rel="noreferrer">
+            ByuN0-0
+          </a>
         </p>
         <p>Location: 대한민국 서울</p>
       </div>
