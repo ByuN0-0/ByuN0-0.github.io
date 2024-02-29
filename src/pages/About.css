@@ -1,0 +1,19 @@
+.tech-stack-page {
+  padding: 20px;
+}
+
+.page-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.tech-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tech-list li {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
