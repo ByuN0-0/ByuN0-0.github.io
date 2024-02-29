@@ -42,8 +42,10 @@ function TOC() {
             &nbsp;Seoul, Korea
           </div>
           <div>
-            <FontAwesomeIcon className="social_ico" icon={faSquareEnvelope} />
-            &nbsp;isly7959@gmail.com
+            <a href="mailto:isly7959@gmail.com">
+              <FontAwesomeIcon className="social_ico" icon={faSquareEnvelope} />
+              &nbsp;isly7959@gmail.com
+            </a>
           </div>
           <div>
             <a href="https://github.com/ByuN0-0" target="_blank" rel="noreferrer">
