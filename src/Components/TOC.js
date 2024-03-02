@@ -62,21 +62,30 @@ function TOC() {
                 <Link to="/study">Study</Link>
               </div>
               <ul>
-                <Link to="/study/machinelearning">머신러닝</Link>
+                <Link to="/study/algorithm">알고리즘</Link>
               </ul>
               <ul>
                 <Link to="/study/it">IT지식</Link>
+              </ul>
+              <ul>
+                <Link to="/study/machinelearning">머신러닝</Link>
               </ul>
             </li>
             <li>
               <div className="sub_title">
                 <Link to="/project">Project</Link>
               </div>
+              <ul>
+                <Link to="/project/add">추가할예정</Link>
+              </ul>
             </li>
             <li>
               <div className="sub_title">
-                <Link to="/story">Story</Link>
+                <Link to="/books">Books</Link>
               </div>
+              <ul>
+                <Link to="/books/review">review</Link>
+              </ul>
             </li>
           </ul>
         </nav>

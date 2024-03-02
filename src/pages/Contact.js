@@ -21,6 +21,12 @@ const Contact = () => {
             ByuN0-0
           </a>
         </p>
+        <p>
+          Baekjoon:{" "}
+          <a href="https://www.acmicpc.net/user/islyee" target="_blank" rel="noreferrer">
+            islyee
+          </a>
+        </p>
         <p>Location: 대한민국 서울</p>
       </div>
     </div>

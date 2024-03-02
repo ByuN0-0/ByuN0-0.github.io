@@ -4,7 +4,7 @@ header {
   color: #333333; /* 헤더 텍스트 색상 */
   padding: 20px; /* 헤더 안쪽 여백 */
   padding-left: 30px;
-  width: 95%; /* 헤더 너비를 화면 전체로 확장 */
+  width: 94%; /* 헤더 너비를 화면 전체로 확장 */
   /*position: fixed; */ /* 헤더를 화면에 고정 */
   height: 40px; /* 헤더 높이를 40px로 지정 */
   line-height: 40px; /* 텍스트의 수직 정렬을 위해 line-height 수정 */
@@ -35,4 +35,7 @@ header {
   color: #000000; /* 링크 텍스트 색상 */
   text-decoration: none; /* 링크 텍스트에 밑줄 제거 */
   white-space: nowrap; /* 텍스트가 줄 바꿈되지 않도록 처리 */
+}
+.nav a:hover {
+  text-decoration: underline;
 }
