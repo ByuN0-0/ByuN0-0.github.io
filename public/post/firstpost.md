@@ -1,6 +1,6 @@
 title: firstpost
 date: 2024-02-26
-tag: study
+link: study, algorithm
 
 # 제목: Markdown 파일 작성 예시 (테스트)
 

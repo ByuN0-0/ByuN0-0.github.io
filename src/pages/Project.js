@@ -3,7 +3,7 @@ import MDList from "../Components/MDList";
 const Project = (props) => {
   return (
     <div>
-      <MDList filePath={"post/project/list.md"} />
+      <MDList index={"project"} />
     </div>
   );
 };

@@ -1,6 +1,6 @@
 title: thirdpost
 date: 2024-02-26
-tag: project
+tag: project, android
 
 # third 테스트입니다.
 

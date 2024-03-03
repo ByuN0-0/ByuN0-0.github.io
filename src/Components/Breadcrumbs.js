@@ -12,7 +12,6 @@ function Breadcrumbs() {
   return (
     <nav className="breadcrumbs-container">
       <div className="breadcrumbs">
-        {/* home 링크를 맨 앞에 추가 */}
         <span>
           <Link to="/">Home</Link>
           {pathArray.length !== 0 && <span> /&nbsp;</span>}
