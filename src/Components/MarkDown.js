@@ -26,7 +26,7 @@ const MarkdownComponent = () => {
       {markdownContent.split(" ")[0] === "<!DOCTYPE" ? (
         <NotFound />
       ) : (
-        <ReactMarkdown>{markdownContent}</ReactMarkdown>
+        <ReactMarkdown>{markdownContent.split("/start/")[1]}</ReactMarkdown>
       )}
     </div>
   );
