@@ -1,6 +1,7 @@
 title: thirdpost
 date: 2024-02-26
 tag: project, android
+/start/
 
 # third 테스트입니다.
 
