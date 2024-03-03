@@ -1,4 +1,4 @@
-title: firstpost
+title: 첫번째야
 date: 2024-02-26
 link: study, algorithm
 /start/
