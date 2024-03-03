@@ -34,6 +34,8 @@
   src: url("./fonts/taebaekmw.ttf") format("truetype");
 }
 
+.contact-container,
+.about-container,
 .toc,
 .breadcrumbs,
 .header {
