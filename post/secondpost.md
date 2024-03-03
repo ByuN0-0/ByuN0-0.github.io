@@ -1,6 +1,6 @@
 title: secondpost
 date: 2024-02-26
-tag: story
+tag: books, jsp_wepprogramming
 
 # 테스트입니다.
 
