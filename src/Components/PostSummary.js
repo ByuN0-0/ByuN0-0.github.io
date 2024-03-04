@@ -16,8 +16,11 @@ const PostSummary = ({ title, date, link }) => {
   return (
     <Link to={strlink} className="post-summary">
       <h2>{title}</h2>
-      <p>Date: {date}</p>
-      <p>link: {link}</p>
+      <div className="sub">
+        Date: {date}
+        <br />
+        link: {link}
+      </div>
     </Link>
   );
 };
