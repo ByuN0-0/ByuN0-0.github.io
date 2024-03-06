@@ -1,4 +1,4 @@
-title: second
+title: jsp테스트1
 date: 2024-02-26
 tag: books, jsp_wepprogramming
 /start/

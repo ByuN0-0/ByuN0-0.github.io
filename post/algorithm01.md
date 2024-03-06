@@ -1,4 +1,4 @@
-title: firstpost
+title: 알고리즘테스트1
 date: 2024-02-26
 link: study, algorithm
 /start/
