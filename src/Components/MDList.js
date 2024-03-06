@@ -26,6 +26,7 @@ const MDList = ({ index }) => {
         else {
           const response = await fetch(`post/${line}.md`);
           const markdownText = await response.text();
+          let key = line;
           let parts = markdownText.split("\n");
           let title = parts[0].split(": ")[1];
           let date = parts[1].split(": ")[1];
@@ -35,7 +36,7 @@ const MDList = ({ index }) => {
           else {
             setPostList((postList) => [
               ...postList,
-              <PostSummary key={title} title={title} date={date} link={link} />,
+              <PostSummary key={key} postkey={key} title={title} date={date} link={link} />,
             ]);
           }
         }

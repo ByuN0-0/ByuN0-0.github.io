@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./PostSummary.css";
 
-const PostSummary = ({ title, date, link }) => {
+const PostSummary = ({ postkey, title, date, link }) => {
   let linklist = link.split(", ");
   let strlink = "/";
   if (linklist.length > 1) {
@@ -12,7 +12,7 @@ const PostSummary = ({ title, date, link }) => {
   } else {
     strlink = link;
   }
-  strlink = strlink + title;
+  strlink = strlink + postkey;
   return (
     <Link to={strlink} className="post-summary">
       <h2>{title}</h2>
