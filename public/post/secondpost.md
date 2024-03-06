@@ -1,4 +1,4 @@
-title: 두번째
+title: second
 date: 2024-02-26
 tag: books, jsp_wepprogramming
 /start/

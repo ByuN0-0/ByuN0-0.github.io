@@ -46,8 +46,8 @@
   font-family: "taebaekmw"; /* 폰트를 지정합니다. */
 }
 
-.markdown-container {
-  display: flex;
+.mdlist-container {
+  display: flex; /* 요소들을 가로로 배치합니다. */
   flex-wrap: wrap; /* 요소가 가로로 넘칠 경우 자동으로 다음 줄로 이동하게 합니다. */
   justify-content: space-between; /* 요소들을 가로 방향으로 고르게 배치합니다. */
   gap: 20px;
