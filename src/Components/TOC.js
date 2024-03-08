@@ -68,7 +68,10 @@ function TOC() {
                 <Link to="/study/it">IT지식</Link>
               </ul>
               <ul>
-                <Link to="/study/machinelearning">머신러닝</Link>
+                <Link to="/study/machinelearning">기계학습</Link>
+              </ul>
+              <ul>
+                <Link to="/study/bigdata">빅데이터처리</Link>
               </ul>
             </li>
             <li>
@@ -76,7 +79,10 @@ function TOC() {
                 <Link to="/project">Project</Link>
               </div>
               <ul>
-                <Link to="/project/add">추가할예정</Link>
+                <Link to="/project/hearur">HearUR</Link>
+              </ul>
+              <ul>
+                <Link to="/project/discordbot">DiscordBot</Link>
               </ul>
             </li>
             <li>
