@@ -29,7 +29,7 @@ function TOC() {
           <Link to="/about">
             <img
               className="author_avatar"
-              src="https://byun0-0.github.io/img/profileimg.png"
+              src="https://github.com/ByuN0-0/ByuN0-0.github.io/blob/gh-pages/img/profileimg.png?raw=true"
               alt="profile img"
             />
           </Link>
