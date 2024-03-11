@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom"; // useParams import 추가
 import ReactMarkdown from "react-markdown";
 import NotFound from "../pages/NotFound";
 
-const MarkdownComponent = () => {
+const MarkDown = () => {
   const [markdownContent, setMarkdownContent] = useState("");
   const { category, link, title } = useParams(); // useParams 훅을 사용하여 URL 파라미터 추출
 
@@ -32,4 +32,4 @@ const MarkdownComponent = () => {
   );
 };
 
-export default MarkdownComponent;
+export default MarkDown;

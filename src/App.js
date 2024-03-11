@@ -14,7 +14,7 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import TOC from "./Components/TOC";
 import Breadcrumbs from "./Components/Breadcrumbs";
-import MarkDown from "./Components/Markdown";
+import MarkDown from "./Components/MarkDown";
 
 function App() {
   return (
