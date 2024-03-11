@@ -27,7 +27,11 @@ function TOC() {
       <div className="toc">
         <div className="author">
           <Link to="/about">
-            <img className="author_avatar" src="img/profileimg.png" alt="profile img" />
+            <img
+              className="author_avatar"
+              src="https://byun0-0.github.io/img/profileimg.png"
+              alt="profile img"
+            />
           </Link>
           <div className="author_content">
             <Link to="/about" className="author_name">
